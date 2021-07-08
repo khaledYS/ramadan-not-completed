@@ -1,0 +1,66 @@
+
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.con1{
+    height: 100vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(44, 44, 44);
+    overflow: hidden;
+    position:relative;
+    padding-bottom: 3vh;
+}
+.out1{
+    line-height: 100vh;
+    text-align: center;
+    font-size: 10vh;
+    color: rgb(255, 235, 205);
+
+}
+.out1 span{
+    transition: all 1s ease-in-out;
+    opacity: 0;
+    transform: translateY(10vh) rotateX(50deg);
+    display: inline-block;
+}
+.con1 a {
+    position: absolute;
+    z-index: 10;
+    cursor:pointer;
+    bottom: 10vh;
+    right: 0;
+    background: rgb(59, 199, 113);
+    text-decoration: none;
+    padding: 1%;
+    border-bottom-left-radius: 60%;
+    border-top-left-radius: 60%;
+}
+span.func1{
+    opacity: 1;
+    transform: translateY(0vh) rotateX(0deg);
+    color: rgb(51, 137, 143);
+}
+.con2{
+    height: 100vh;
+    font-size: 2vh;
+    position: relative;
+    background: #0C2D48;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh;
+    font-family: sans-serif;
+}
+.con2 .out2{
+    color: #2E8BC0;
+}
